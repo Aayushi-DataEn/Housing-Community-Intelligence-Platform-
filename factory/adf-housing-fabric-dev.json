@@ -1,0 +1,15 @@
+{
+	"name": "adf-housing-fabric-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce80e1ff-ba1e-4c5a-8a46-2dee05941d3f",
+		"tenantId": "91588b01-f502-4d84-8ab1-039e446781f2"
+	}
+}
