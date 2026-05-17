@@ -1,0 +1,22 @@
+{
+	"name": "ds_github_train",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_github_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/Aayushi-DataEn/Housing-Community-Intelligence-Platform-/refs/heads/main/raw_data/train.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
